@@ -22,4 +22,12 @@ Each project is a self-contained `.html` file with three inline sections:
 
 ## Git workflow
 
-All changes are committed and pushed to `https://github.com/sp3ct3rvision/claude-tests`. Commit after every meaningful change with a concise imperative message.
+All changes must be committed and pushed to `https://github.com/sp3ct3rvision/claude-tests` regularly so work is never lost and can always be reverted.
+
+- Commit and push after every meaningful unit of work (new feature, bug fix, notable edit)
+- Never leave a working session without pushing — the GitHub copy is the source of truth
+- Use concise imperative commit messages (e.g. `Add win animation`, `Fix draw detection`)
+- Always include the co-author footer:
+  ```
+  Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
+  ```
